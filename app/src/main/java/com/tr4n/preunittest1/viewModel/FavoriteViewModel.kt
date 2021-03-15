@@ -7,7 +7,7 @@ class FavoriteViewModel(
 ) {
 
     fun isTheSameMaxValue(firstList: List<Int>, secondList: List<Int>): Boolean {
-        val firstMax = repository.getMax(firstList)
+            val firstMax = repository.getMax(firstList)
         val secondMax = repository.getMax(secondList)
 
         if (firstMax == secondMax) return true
